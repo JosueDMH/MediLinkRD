@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="MediLink RD - Plataforma digital para gestionar tu historial médico en República Dominicana" />
+  <title>MediLink RD - Tu salud, siempre contigo</title>
+  <!-- OJO: usa ruta relativa; coloca el archivo al lado del index o en /assets -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>MediLink RD</h1>
+      <p>Tu historial médico completo, seguro y accesible desde cualquier lugar</p>
+      <a href="#contacto" class="cta-button">Comienza ahora</a>
+    </div>
+  </section>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav>
+    <div class="nav-links">
+      <a href="#problema">El Problema</a>
+      <a href="#caracteristicas">Características</a>
+      <a href="#solucion">La Solución</a>
+      <a href="#contacto">Contáctanos</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <!-- ===== PROBLEMA ===== -->
+    <section id="problema" class="card">
+      <h2>El Problema</h2>
+      <p>
+        En República Dominicana, el sistema de salud enfrenta un desafío crítico: la fragmentación de la información
+        médica. Los pacientes deben navegar entre múltiples centros de salud, cada uno con sus propios sistemas y registros
+        independientes.
+      </p>
+      <p>
+        Esta desconexión genera consecuencias graves: pérdida de documentos, duplicación innecesaria de exámenes, retrasos
+        en diagnósticos y una experiencia frustrante para pacientes y profesionales.
+      </p>
+      <p>
+        <strong>MediLink RD</strong> nace para resolver esto, creando un ecosistema digital unificado donde cada ciudadano
+        tiene control total sobre su información médica.
+      </p>
+    </section>
+
+    <!-- ===== CARACTERÍSTICAS ===== -->
+    <section id="caracteristicas">
+      <h2 style="text-align:center;margin-bottom:40px;">¿Por qué MediLink RD?</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">📋</div>
+          <h3>Historial Unificado</h3>
+          <p>Todos tus registros en un solo lugar, organizados y accesibles.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>Seguridad Total</h3>
+          <p>Protegido con estándares de seguridad y encriptación.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📱</div>
+          <h3>Acceso Multiplataforma</h3>
+          <p>Desde móvil, tablet o computadora.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🤝</div>
+          <h3>Compartir Fácil</h3>
+          <p>Comparte con médicos autorizados de forma segura.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔔</div>
+          <h3>Recordatorios</h3>
+          <p>Citas, medicamentos y resultados.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Tiempo Real</h3>
+          <p>Actualizaciones cuando se agregan nuevos datos.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SOLUCIÓN ===== -->
+    <section id="solucion" class="card">
+      <h2>Nuestra Solución</h2>
+      <p>
+        <strong>MediLink RD</strong> conecta pacientes, médicos, hospitales y laboratorios en un ecosistema integrado y
+        eficiente.
+      </p>
+      <h3 style="color:#0077b6;margin:25px 0 15px;">Beneficios para Pacientes</h3>
+      <ul class="benefits-list">
+        <li><strong>Control total:</strong> Administra y visualiza tu historial completo.</li>
+        <li><strong>Acceso inmediato:</strong> Consulta desde cualquier lugar.</li>
+        <li><strong>Compartir selectivo:</strong> Autoriza profesionales con control de acceso.</li>
+        <li><strong>Ahorro de tiempo:</strong> Evita repetir exámenes y búsquedas.</li>
+        <li><strong>Alertas inteligentes:</strong> Recordatorios de citas y chequeos.</li>
+      </ul>
+      <p style="margin-top:25px;">
+        Esta versión (PMV) valida el interés real y prioriza funcionalidades según tu feedback.
+      </p>
+    </section>
+
+    <!-- ===== FORMULARIO ===== -->
+    <section id="contacto" class="form-section">
+      <h2>¿Listo para transformar tu experiencia de salud?</h2>
+      <p>Regístrate para el programa piloto y obtén acceso anticipado a MediLink RD.</p>
+
+      <form id="formularioPMV">
+        <div class="form-group">
+          <label for="nombre">Nombre completo *</label>
+          <input type="text" id="nombre" placeholder="Ej: Juan Pérez" required />
+        </div>
+        <div class="form-group">
+          <label for="correo">Correo electrónico *</label>
+          <input type="email" id="correo" placeholder="tu@email.com" required />
+        </div>
+        <div class="form-group">
+          <label for="telefono">Teléfono (opcional)</label>
+          <input type="tel" id="telefono" placeholder="(809) 000-0000" />
+        </div>
+        <div class="form-group">
+          <label for="mensaje">¿Por qué te interesa MediLink RD?</label>
+          <textarea id="mensaje" placeholder="Cuéntanos tu experiencia con el sistema de salud actual..."></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Enviar solicitud</button>
+      </form>
+      <div id="respuesta"></div>
+    </section>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-links">
+        <a href="#problema">El Problema</a>
+        <a href="#caracteristicas">Características</a>
+        <a href="#solucion">La Solución</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <p>&copy; 2025 MediLink RD. Todos los derechos reservados.</p>
+      <p style="margin-top:10px;opacity:.8;">Desarrollado con ❤️ por Josue De Moya Hernández</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
